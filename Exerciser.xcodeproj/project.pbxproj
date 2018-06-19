@@ -543,7 +543,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = se.gravelhill.Exerciser;
+				PRODUCT_BUNDLE_IDENTIFIER = se.isotopl.HelloVSTS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "aeb380ab-56ba-4c25-9ca5-471b055ec5ea";
 				PROVISIONING_PROFILE_SPECIFIER = "App store wildcard";
@@ -565,7 +565,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = se.gravelhill.Exerciser;
+				PRODUCT_BUNDLE_IDENTIFIER = se.isotopl.HelloVSTS;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "aeb380ab-56ba-4c25-9ca5-471b055ec5ea";
 				PROVISIONING_PROFILE_SPECIFIER = "App store wildcard";
