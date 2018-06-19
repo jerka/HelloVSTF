@@ -535,7 +535,8 @@
 			baseConfigurationReference = 266986CEF7D0E22D5BC0A1B0 /* Pods-Exerciser.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 3GN395FUH4;
 				INFOPLIST_FILE = Exerciser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -544,6 +545,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = se.gravelhill.Exerciser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "aeb380ab-56ba-4c25-9ca5-471b055ec5ea";
+				PROVISIONING_PROFILE_SPECIFIER = "App store wildcard";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -554,7 +557,8 @@
 			baseConfigurationReference = 4D9F3200DB5A220705AE09E8 /* Pods-Exerciser.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = 3GN395FUH4;
 				INFOPLIST_FILE = Exerciser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -563,6 +567,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = se.gravelhill.Exerciser;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "aeb380ab-56ba-4c25-9ca5-471b055ec5ea";
+				PROVISIONING_PROFILE_SPECIFIER = "App store wildcard";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
