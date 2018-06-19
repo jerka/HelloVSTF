@@ -548,7 +548,7 @@
 				PROVISIONING_PROFILE = "aeb380ab-56ba-4c25-9ca5-471b055ec5ea";
 				PROVISIONING_PROFILE_SPECIFIER = "App store wildcard";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -570,7 +570,7 @@
 				PROVISIONING_PROFILE = "aeb380ab-56ba-4c25-9ca5-471b055ec5ea";
 				PROVISIONING_PROFILE_SPECIFIER = "App store wildcard";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
