@@ -26,12 +26,6 @@ extension Managed {
     }
 }
 
-extension Managed where Self: NSManagedObject {
-    static var entityName: String {
-        return entity().name!
-    }
-}
-
 extension NSManagedObjectContext {
     func insertObject<A: NSManagedObject>() -> A where A: Managed {
         guard let obj = NSEntityDescription.insertNewObject(forEntityName: A.entityName, into: self) as? A else { fatalError("Wrong type!") }
